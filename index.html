@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="My Portfolio - showcasing my projects and skills.">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+<div id="particles-js"></div>
+<nav aria-label="Main Navigation">
+  <a href="#section1" class="logo-link" aria-label="Home"><img src="path/to/your/logo1.png" alt="Logo" class="logo"></a>
+  <ul>
+    <li><a href="#section1">Introduction</a></li>
+    <li><a href="#section2">About Me</a></li>
+    <li><a href="#section3">Projects</a></li>
+    <li><a href="#section4">Skills</a></li>
+    <li><a href="#section5">Contact</a></li>
+  </ul>
+</nav>
+<div id="fullpage">
+  <div class="section" id="section1">
+    <h1>Welcome to My Portfolio</h1>
+    <p>/* Add your introduction here */</p>
+  </div>
+  <div class="section" id="section2">
+    <h2>About Me</h2>
+    <p>/* Add your about me content here */</p>
+  </div>
+  <div class="section" id="section3">
+    <h2>Projects</h2>
+    <div id="projects">
+      <!-- Add your projects here -->
+    </div>
+  </div>
+  <div class="section" id="section4">
+    <h2>Skills</h2>
+    <ul>
+      <!-- List your skills here -->
+    </ul>
+  </div>
+  <div class="section" id="section5">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
